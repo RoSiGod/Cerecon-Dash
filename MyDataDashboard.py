@@ -133,9 +133,7 @@ def main():
     st.title("Timesheet Data Analyzer")
 
     # API Key Input
-    api_key_default = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InNnb2Rib2xlQGNlcmVjb24uY29tLmF1IiwiYXBwbGljYXRpb25pZCI6MCwidXNlcm5hbWUiOiJzaWRkaGVzaCIsInRlbmFudCI6IiIsImNvZGVfZXhwaXJlcyI6NjM5MTA4NjI3ODg1NjcxMDg0LCJ1c2VyX3R5cGUiOiIyIn0.hlIw1TaEMZLcTU8jcQD_iJ7bFExkZv54ZZQyHaKpLTw'
-
-    api_key = st.text_input('Enter API Key',value = api_key_default)
+    api_key = st.text_input('Enter API Key')
     
     # # Slug Input
     slug = "cerecon/"
