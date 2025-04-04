@@ -134,6 +134,12 @@ def main():
 
     # API Key Input
     api_key = st.text_input('Enter API Key')
+
+    if st.button('help me find my API KEY'):
+        st.text('In Synergy, click on the top right menu icon and choose "edit profile')
+        st.text('Under the profile page, click the menu elipsis and choose API key')
+        st.text('Copy the complete API key and use it as as an access-token')
+        st.text('This API key is valid for one or three years, depending which one you choose.')
     
     # # Slug Input
     slug = "cerecon/"
